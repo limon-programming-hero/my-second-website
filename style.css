@@ -7,17 +7,21 @@ body{
 
 
 
-#link{
 
 
-font-size: 100px;
-color: brown;
+
+#link:hover{
+
+    color: rgb(245, 234, 234);
+    vertical-align: text-bottom;
+    }
 
 
-}
+   
 
 
-#first button{
+
+#button{
 
 font-size: 100px;
 font-style: italic;
@@ -28,10 +32,149 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-#new image{
+#first_image{
 
-height: 200px;
-width: 150px;
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+      
+}
+
+
+#first_image:hover{
+height: 100px;
+width: 80px;
+
+}
+
+
+
+#button:hover{
+
+font-size: 100px;
+color: chartreuse;
+text-align: end;
+font-size: 50px;
+
+
 
 
 }
+
+
+h1:hover{
+
+
+color: cornsilk;
+text-align: center;
+
+}
+
+
+
+
+
+
+h2 {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+  }
+
+
+input:focus{
+
+color: rgb(218, 181, 17);
+font-size: 40px;
+align-content: center;
+
+}
+
+
+
+#log_in:hover{
+
+font-size: 50px;
+color: darksalmon;
+
+}
+
+
+
+
+
+ul{
+
+
+color: darksalmon;
+    font-size: 30px;
+}
+
+
+li:nth-child(2n+1) {
+
+color: rgb(240, 224, 224);
+
+
+
+
+}
+
+
+p::first-letter {
+    color: #ff0000;
+    font-size: 200%;
+  }
+
+
+
+
+  p::first-line {
+    color: #0000ff;
+    font-variant: small-caps;
+  }
+
+
+
+
+li:nth-child(2n){
+
+
+color: dimgrey;
+
+
+
+
+}
+
+li:hover{
+
+
+    color: goldenrod;
+    font-size: 50px;
+}
+
+
+
+
+
+h2::before{
+
+
+    content: url(smiley.gif);
+color: gray;
+
+
+}
+
+a:link {
+    color: rgb(235, 19, 127);
+    font-size: 100px;
+  }
+
+
+  
